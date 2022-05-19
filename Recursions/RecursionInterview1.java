@@ -13,11 +13,11 @@ package Recursions;
 public class RecursionInterview1 {
     public static void main(String[] args) {
 
-        System.out.println(recursion(98));
+        System.out.println(recursionSum(98));
 
     }
 
-    public static int recursion(int n) {
+    public static int recursionSum(int n) {
         if (n < 0) { // unintentional case
             return -1;
         }
@@ -26,7 +26,7 @@ public class RecursionInterview1 {
             return n;
         }
 
-        return n % 10 + recursion(n / 10); // this sum up the digit of the recurion
+        return n % 10 + recursionSum(n / 10); // this sum up the digit of the recurion
 
     }
 
