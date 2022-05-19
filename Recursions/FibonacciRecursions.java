@@ -1,4 +1,8 @@
 package Recursions;
+/*     
+    Fibonacci recursion is sequence of number which each number is sum of two preceding ones and sequence start from 0 and 1
+    
+*/
 
 public class FibonacciRecursions {
     public static void main(String[] args) {
