@@ -57,4 +57,15 @@ public class SinglyDimesionalArray {
 
     }
 
+    // Delete a value
+    public void DeleteValue(int deleteElementIndex) {
+
+        try {
+            arr[deleteElementIndex] = Integer.MIN_VALUE;
+            System.out.println("Value was deleted succesfully");
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Array out of bound");
+        }
+    }
+
 }
