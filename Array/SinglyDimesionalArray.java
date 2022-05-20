@@ -1,9 +1,10 @@
 package Array;
 
 /**
- * Singly Linked List
- * One dimensional array represents one row or one column of array
- * elements that share a common name and is distinguishable by index values.
+ * One dimensional array : an array with a bunch of values having been declared
+ * with a single index
+ * 
+ * 
  */
 
 public class SinglyDimesionalArray {
@@ -20,12 +21,12 @@ public class SinglyDimesionalArray {
     // insert to a specific location in an array
     public void arrayInsertion(int location, int valueToInsert) {
         try {
-            if (arr[location] == arr[Integer.MIN_VALUE]) {
+            if (arr[location] == Integer.MIN_VALUE) {
                 arr[location] = valueToInsert;
             } else {
                 System.out.println("The cell is already accopied");
             }
-        } catch (Exception e) {
+        } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("The array is full");
         }
 
@@ -42,4 +43,18 @@ public class SinglyDimesionalArray {
         }
 
     }
+
+    // Locate an element in array
+    public void LocateElement(int element) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == element) {
+                System.out.println("Value was found at index: " + i);
+                return;
+            } else {
+                System.out.println("Value was not found");
+            }
+        }
+
+    }
+
 }
