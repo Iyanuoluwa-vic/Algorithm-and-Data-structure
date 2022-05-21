@@ -13,7 +13,7 @@ public class ArrayInterview2 {
             for (int j = i + 1; j < intArray.length; j++) {
 
                 if ((intArray[i] + intArray[j]) == target) {
-                    System.out.println("[" + i + " , " + j + "]");
+                    System.out.println("[" + i + " , " + j + "]"); /// return the index of the two sum
                     return;
                 }
 
