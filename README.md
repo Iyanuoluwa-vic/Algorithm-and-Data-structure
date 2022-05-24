@@ -21,5 +21,7 @@
 
    4.[SumOfDigit](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Recursions/SumofDigit)
 
+   4.[RotateMatrix](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Recursions/RotateMatrix)
+
         
 
