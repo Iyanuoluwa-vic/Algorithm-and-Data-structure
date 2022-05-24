@@ -2,4 +2,4 @@
 
 -Interview Prep
 
-[MssingNumber](https://www.youtube.com/)
+[MssingNumber](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Array/MissingNumber)
