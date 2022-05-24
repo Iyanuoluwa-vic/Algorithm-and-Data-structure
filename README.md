@@ -15,11 +15,11 @@
    
    1.[DecimalToBinary](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Recursions/DecimalToBianry)
 
-   2.[GCD](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Array/GCD)
+   2.[GCD](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Recursions/GCD)
 
-   3.[PowerOfNumber](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Array/PowerOfNumber)
+   3.[PowerOfNumber](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Recursions/PowerOfNumber)
 
-   4.[SumOfDigit](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Array/SumofDigit)
+   4.[SumOfDigit](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Recursions/SumofDigit)
 
         
 
