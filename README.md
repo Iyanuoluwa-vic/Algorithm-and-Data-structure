@@ -2,13 +2,13 @@
 
 -Array
 
-  1.[MssingNumber](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Array/MissingNumber)
+    1.[MssingNumber](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Array/MissingNumber)
 
-  2.[ArrayDiscussion](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Array/ArrayDiscussion)
+    2.[ArrayDiscussion](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Array/ArrayDiscussion)
 
-  3.[Permutation](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Array/Permutation)
+    3.[Permutation](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Array/Permutation)
 
-  4.[TwoSum](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Array/TwoSum)
+    4.[TwoSum](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Array/TwoSum)
 
 
 
