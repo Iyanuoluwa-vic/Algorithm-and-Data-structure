@@ -1,6 +1,6 @@
 package Array.TwoSum;
 
-public class ArrayInterview2 {
+public class TwoSum {
     public static void main(String[] args) {
         int[] intArray = { 2, 7, 13, 15 };
 
