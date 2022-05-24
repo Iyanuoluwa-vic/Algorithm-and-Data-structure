@@ -1,4 +1,4 @@
-package Recursions;
+package Recursions.SumofDigit;
 
 /*
     How to find the sum of digits of a positive integer number using recursion 

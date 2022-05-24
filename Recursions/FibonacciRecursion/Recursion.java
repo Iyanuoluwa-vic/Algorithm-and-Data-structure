@@ -1,4 +1,4 @@
-package Recursions;
+package Recursions.FibonacciRecursion;
 
 public class Recursion {
     /*

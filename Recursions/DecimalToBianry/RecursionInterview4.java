@@ -1,4 +1,4 @@
-package Recursions;
+package Recursions.DecimalToBianry;
 /*
       How to convert a number from Decimal to Binary using recursion
           

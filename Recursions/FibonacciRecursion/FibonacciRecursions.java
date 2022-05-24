@@ -1,4 +1,4 @@
-package Recursions;
+package Recursions.FibonacciRecursion;
 /*     
     Fibonacci recursion is sequence of number which each number is sum of two preceding ones and sequence start from 0 and 1
     

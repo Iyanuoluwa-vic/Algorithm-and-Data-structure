@@ -1,4 +1,4 @@
-package Recursions;
+package Recursions.PowerOfNumber;
 
 /**
  * How to calculate power of a number using recursion?
