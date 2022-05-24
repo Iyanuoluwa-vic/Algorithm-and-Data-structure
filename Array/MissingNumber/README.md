@@ -1,7 +1,5 @@
 #Interview 
-
-![](..%5C..%5C..%5C..%5CDownloads%5CMissingNumber.PNG)
-
+![](MissingNumber.PNG)
 
 
 # Solution

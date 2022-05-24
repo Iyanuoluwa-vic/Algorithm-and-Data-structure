@@ -1,5 +1,5 @@
 #Interview Question  
-![](..%5C..%5C..%5C..%5CDownloads%5Cpermutation.PNG)
+![](permutation.PNG)
 
 
 #Solution
