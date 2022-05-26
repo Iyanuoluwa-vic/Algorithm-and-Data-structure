@@ -13,6 +13,19 @@ public class main {
         list.traverseDoublyLinkedList();
         list.deleteEntireLinkedList();
         list.traverseDoublyLinkedList();
+        list.CreateDoublyLinkedList(4);
+        list.insertionDoublyLinkedList(5, 1);
+        list.insertionDoublyLinkedList(45, 2);
+        list.insertionDoublyLinkedList(9, 3);
+        list.insertionDoublyLinkedList(3, 4);
+        list.insertionDoublyLinkedList(3, 5);
+        list.traverseDoublyLinkedList();
+        list.deleteDoublyLinkedList(0);
+        list.traverseDoublyLinkedList();
+        list.deleteDoublyLinkedList(1);
+        list.traverseDoublyLinkedList();
+        list.deleteDoublyLinkedList(3);
+        list.traverseDoublyLinkedList();
 
     }
 

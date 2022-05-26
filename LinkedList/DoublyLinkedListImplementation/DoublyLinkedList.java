@@ -72,4 +72,46 @@ public class DoublyLinkedList {
         size = 0;
 
     }
+
+    public void deleteDoublyLinkedList(int location) {
+
+        if (head == null) {
+            System.out.println("The Doubly Link List is already empty");
+            return;
+        } else if (location == 0) {
+            if (size == 1) {
+                head = null;
+                tail = null;
+                size--;
+            } else {
+                head = head.next;
+                head.prev = null;
+                size--;
+            }
+
+        } else if (location >= size) {
+            DoublyNode temp = tail.prev;
+            if (size == 1) {
+                head = null;
+                tail = null;
+                size--;
+            } else {
+                temp.next = null;
+                tail = temp;
+                size--;
+            }
+        } else {
+            DoublyNode temp = head;
+
+            for (int i = 0; i < location - 1; i++) {
+                temp = temp.next;
+            }
+
+            temp.next = temp.next.next;
+            temp.next.prev = temp;
+            size--;
+        }
+
+    }
+
 }
