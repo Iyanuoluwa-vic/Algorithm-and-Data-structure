@@ -62,6 +62,14 @@ public class DoublyLinkedList {
             System.out.print(" ");
             temp = temp.next;
         }
+        System.out.println();
+
+    }
+
+    public void deleteEntireLinkedList() {
+        head = null;
+        tail = null;
+        size = 0;
 
     }
 }
