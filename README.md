@@ -1,6 +1,6 @@
 # Algorithm-and-Data-structure
 
-1. Array
+##1. Array
 
    1.[MssingNumber](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Array/MissingNumber)
 
@@ -11,7 +11,7 @@
    4.[TwoSum](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Array/TwoSum)
 
 
-2. Recursion
+##2. Recursion
    
    1.[DecimalToBinary](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Recursions/DecimalToBianry)
 
@@ -22,6 +22,12 @@
    4.[SumOfDigit](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Recursions/SumofDigit)
 
    4.[RotateMatrix](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/Recursions/RotateMatrix)
+
+
+##3. LinkedList
+      1.[ImplemeentationOfSinglyLinkedList](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/LinkedList/SinglyLinkedListImplementation)
+      2.[ImplemeentationOfDoublyList](https://github.com/Iyanuoluwa-vic/Algorithm-and-Data-structure/tree/master/LinkedList/DoublyLinkedListImplementation)
+      
 
         
 
