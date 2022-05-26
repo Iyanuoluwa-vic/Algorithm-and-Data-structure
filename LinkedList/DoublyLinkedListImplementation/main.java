@@ -18,7 +18,7 @@ public class main {
         list.insertionDoublyLinkedList(45, 2);
         list.insertionDoublyLinkedList(9, 3);
         list.insertionDoublyLinkedList(3, 4);
-        list.insertionDoublyLinkedList(3, 5);
+        list.insertionDoublyLinkedList(2, 5);
         list.traverseDoublyLinkedList();
         list.deleteDoublyLinkedList(0);
         list.traverseDoublyLinkedList();

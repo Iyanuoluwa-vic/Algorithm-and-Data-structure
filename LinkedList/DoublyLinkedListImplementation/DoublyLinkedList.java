@@ -1,5 +1,7 @@
 package LinkedList.DoublyLinkedListImplementation;
 
+import Array.TwoSum.TwoSum;
+
 public class DoublyLinkedList {
     DoublyNode head;
     DoublyNode tail;
@@ -24,17 +26,15 @@ public class DoublyLinkedList {
         if (head == null) {
             CreateDoublyLinkedList(value);
             return;
-        }
-
-        if (location == 0) {
+        } else if (location == 0) {
             newNode.prev = null;
             newNode.next = head;
             head.prev = newNode;
             head = newNode;
         } else if (location >= size) {
+            newNode.next = null;
             tail.next = newNode;
             newNode.prev = tail;
-            newNode.next = null;
             tail = newNode;
         } else {
             DoublyNode temp = head;
@@ -67,6 +67,11 @@ public class DoublyLinkedList {
     }
 
     public void deleteEntireLinkedList() {
+        DoublyNode temp = head;
+        for (int i = 0; i < size; i++) {
+            temp.prev = null;
+            temp = temp.next;
+        }
         head = null;
         tail = null;
         size = 0;
@@ -89,12 +94,13 @@ public class DoublyLinkedList {
                 size--;
             }
 
-        } else if (location >= size) {
+        } else if (location >= size - 1) {
             DoublyNode temp = tail.prev;
             if (size == 1) {
                 head = null;
                 tail = null;
                 size--;
+                return;
             } else {
                 temp.next = null;
                 tail = temp;
@@ -107,7 +113,8 @@ public class DoublyLinkedList {
                 temp = temp.next;
             }
 
-            temp.next = temp.next.next;
+            if (location < size)
+                temp.next = temp.next.next;
             temp.next.prev = temp;
             size--;
         }
