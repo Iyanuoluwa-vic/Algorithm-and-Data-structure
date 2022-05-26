@@ -5,9 +5,9 @@ public class DoublyLinkedList {
     DoublyNode tail;
     int size;
 
-    public void CreateDoublyLinkedList() {
+    public void CreateDoublyLinkedList(int value) {
         DoublyNode node = new DoublyNode();
-
+        node.value = value;
         node.next = null;
         node.prev = null;
         head = node;
@@ -16,12 +16,14 @@ public class DoublyLinkedList {
 
     }
 
+    // Implementation of insertion
     public void insertionDoublyLinkedList(int value, int location) {
         DoublyNode newNode = new DoublyNode();
         newNode.value = value;
 
         if (head == null) {
-            CreateDoublyLinkedList();
+            CreateDoublyLinkedList(value);
+            return;
         }
 
         if (location == 0) {
@@ -29,18 +31,17 @@ public class DoublyLinkedList {
             newNode.next = head;
             head.prev = newNode;
             head = newNode;
-            tail = newNode;
         } else if (location >= size) {
             tail.next = newNode;
             newNode.prev = tail;
             newNode.next = null;
             tail = newNode;
         } else {
+            DoublyNode temp = head;
             int i = 0;
-            DoublyNode temp = new DoublyNode();
-            temp = head;
             while (i < location - 1) {
                 temp = temp.next;
+                i++;
             }
 
             newNode.prev = temp;
@@ -48,7 +49,19 @@ public class DoublyLinkedList {
             temp.next = newNode;
             newNode.next.prev = newNode;
         }
+        size++;
 
     }
 
+    // traverse a doubly Linked List
+    public void traverseDoublyLinkedList() {
+
+        DoublyNode temp = head;
+        for (int i = 0; i < size; i++) {
+            System.out.print(temp.value);
+            System.out.print(" ");
+            temp = temp.next;
+        }
+
+    }
 }
