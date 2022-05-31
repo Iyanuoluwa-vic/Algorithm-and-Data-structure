@@ -31,6 +31,7 @@ public class DoublyLinkedList {
             newNode.next = head;
             head.prev = newNode;
             head = newNode;
+
         } else if (location >= size) {
             newNode.next = null;
             tail.next = newNode;
