@@ -11,6 +11,11 @@ public class Main {
           array1.ArrayInsertion(2, 50);
 
 
+          var value1 = array1.array1[0];
+          var value2 = array1. array1[1];
+
+          System.out.println("Value 1 is " + value1 +"\n" + "value 2 is " + value2);
+
          
     }
 }
