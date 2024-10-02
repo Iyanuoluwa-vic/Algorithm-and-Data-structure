@@ -1,4 +1,4 @@
-package Array.MissingNumber;
+package Array.ArrayDiscussion;
 import java.util.Arrays;
 public class ArrayCreation {
     public static void main(String[] args) {
