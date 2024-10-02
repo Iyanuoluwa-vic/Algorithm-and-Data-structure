@@ -19,5 +19,12 @@ public class Main {
          
           array1.ArrayTraversal();
 
+
+        //   two Dimesional Array
+
+        TwoDimesionalArray twoDim = new TwoDimesionalArray(3, 3);
+
+        
+
     }
 }
