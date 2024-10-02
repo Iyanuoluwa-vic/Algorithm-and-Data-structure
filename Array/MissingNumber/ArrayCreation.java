@@ -7,7 +7,7 @@ public class ArrayCreation {
         int[] array1 = new int[3];
 
 
-        // Time Complexity of this three is 0(n)
+        // Times Complexity of this three is 0(n)
         array1[0]=3;
         array1[1]=33;
         array1[2]=34;
