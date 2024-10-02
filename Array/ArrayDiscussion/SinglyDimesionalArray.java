@@ -16,6 +16,8 @@ public class SinglyDimesionalArray{
 
 
 
+
+    // Insertion into an Array
     public void ArrayInsertion(int location, int valueToInsert){
 
         if(array1[location] == Integer.MIN_VALUE){
