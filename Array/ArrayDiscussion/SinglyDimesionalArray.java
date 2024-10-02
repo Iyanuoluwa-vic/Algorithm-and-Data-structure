@@ -1,71 +1,31 @@
 package Array.ArrayDiscussion;
 
-/**
- * One dimensional array : an array with a bunch of values having been declared
- * with a single index
- * 
- * 
- */
+public class SinglyDimesionalArray{
+    int[] array1=null;
 
-public class SinglyDimesionalArray {
-    int arr[] = null; // create a null array
 
-    // constructor than create an array
-    public SinglyDimesionalArray(int size) {
-        arr = new int[size];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = Integer.MIN_VALUE; // Hold lowest value integer can have
-        }
-    }
+    // CONSTRUCTOR THAT INTILIZE THE ARRAY
+    public SinglyDimesionalArray(int sizeOfArray){
+        array1 = new int[sizeOfArray];
 
-    // insert to a specific location in an array
-    public void arrayInsertion(int location, int valueToInsert) {
-        try {
-            if (arr[location] == Integer.MIN_VALUE) {
-                arr[location] = valueToInsert;
-            } else {
-                System.out.println("The cell is already accopied");
-            }
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("The array is full");
+        for(int i=0; i<array1.length; i++){
+            array1[i] = Integer.MIN_VALUE;
         }
 
     }
 
-    // traverse an array to print out all the element
-    public void traveringAnArray() {
-        try {
-            for (int i = 0; i < arr.length; i++) {
-                System.out.println(arr[i]);
-            }
-        } catch (Exception e) {
-            System.out.println("Array doesnt exist");
+
+
+    public void ArrayInsertion(int location, int valueToInsert){
+
+        if(array1[location] == Integer.MIN_VALUE){
+            array1[location] =valueToInsert;
+            System.out.println("The value was insert successfully in the array");
+        }
+        else{
+            System.out.println("The array cell is already occupied");
         }
 
-    }
-
-    // Locate an element in array
-    public void LocateElement(int element) {
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == element) {
-                System.out.println("Value was found at index: " + i);
-                return;
-            } else {
-                System.out.println("Value was not found");
-            }
-        }
-
-    }
-
-    // Delete a value
-    public void DeleteValue(int deleteElementIndex) {
-
-        try {
-            arr[deleteElementIndex] = Integer.MIN_VALUE;
-            System.out.println("Value was deleted succesfully");
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Array out of bound");
-        }
     }
 
 }
