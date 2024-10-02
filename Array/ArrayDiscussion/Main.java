@@ -17,5 +17,7 @@ public class Main {
           System.out.println("Value 1 is " + value1 +"\n" + "value 2 is " + value2);
 
          
+          array1.ArrayTraversal();
+
     }
 }

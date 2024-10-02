@@ -28,6 +28,21 @@ public class SinglyDimesionalArray{
             System.out.println("The array cell is already occupied");
         }
 
+        
+    }
+
+    // THis Traverse an array
+    public void ArrayTraversal(){
+        try{
+            for(int i =0; i < array1.length; i++){
+            System.out.print(array1[i] + " ");
+        }
+        }
+        catch(Exception e){
+            System.out.println("The array does not exit");
+        }
+
+        
     }
 
 }
