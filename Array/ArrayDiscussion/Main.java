@@ -25,6 +25,7 @@ public class Main {
         TwoDimesionalArray twoDim = new TwoDimesionalArray(3, 3);
 
         
+        twoDim.InsertInArray(0,2,25);
 
     }
 }
