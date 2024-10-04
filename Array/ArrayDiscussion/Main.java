@@ -20,12 +20,15 @@ public class Main {
           array1.ArrayTraversal();
 
 
-        //   two Dimesional Array
-
+        // Two Dimesional Array
         TwoDimesionalArray twoDim = new TwoDimesionalArray(3, 3);
 
         
         twoDim.InsertInArray(0,2,25);
+
+        twoDim.accessTwoDimesional(0,2);
+
+        twoDim.ArrayTraversal();
 
     }
 }
