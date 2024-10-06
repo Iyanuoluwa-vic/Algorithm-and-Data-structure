@@ -31,7 +31,7 @@ public class SinglyDimesionalArray{
         
     }
 
-    // THis Traverse an array
+    // THis Traverses an array
     public void ArrayTraversal(){
         try{
             for(int i =0; i < array1.length; i++){
