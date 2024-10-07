@@ -4,7 +4,7 @@ public class SinglyDimesionalArray{
     int[] array1=null;
 
 
-    // CONSTRUCTOR THAT INTILIZE THE ARRAY
+    // CONSTRUCTOR THAT INTILIZEs THE ARRAY
     public SinglyDimesionalArray(int sizeOfArray){
         array1 = new int[sizeOfArray];
 
