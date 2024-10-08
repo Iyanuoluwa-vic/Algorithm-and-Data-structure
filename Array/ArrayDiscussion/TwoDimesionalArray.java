@@ -49,7 +49,7 @@ public class TwoDimesionalArray {
 
     }
 
-    // Array Traversal
+    // ArrayS Traversal
     public void ArrayTraversal(){
         for(int row=0; row <twoDimesionalArray.length; row++){
             for(int col=0; col < twoDimesionalArray[0].length; col++){
